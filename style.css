@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_gtun0hqlco.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_gtun0hqlco.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/webfont_gtun0hqlco.woff2') format('woff2'),
+    url('//at.alicdn.com/t/webfont_gtun0hqlco.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/webfont_gtun0hqlco.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/webfont_gtun0hqlco.svg#NotoSansHans-Black') format('svg'); /* iOS 4.1- */
+}
+
+html{
+    font-family: 'webfont';
+}
+header{
+    text-align: center;
+}
+header .title-h1{
+    font-weight: 500;
+    font-size: 30pt;
+}
+header img{
+    width: 20vw;
+    height: 20vw;
+}
+
+main{
+    padding: 8px;
+}
+
+.part{
+    text-align: center;
+}
+
+.part .part-title{
+    font-size: 20pt;
+}
+
+.our-work > iframe{
+    border: 3px solid #000;
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+    height: 60vw;
+    max-height: 100vh;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+footer{
+    padding: 8px;
+    color: #73777a;
+    background-color: #181818;
+}
+footer p {
+    font-weight: bold;
+}
+footer li{
+    display: inline;
+    margin: 3px;
+}
+footer a{
+    color: #73777a;
+    text-decoration: none;
+}
+foter a:hover{
+    text-decoration: none;
+    color: #737
+}
