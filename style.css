@@ -43,6 +43,12 @@ header img{
     filter: drop-shadow(0 1px 8px rgba(0, 0, 255, 0.3));
 }
 
+header > p{
+    font-size: 30pt;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 3px;
+}
+
 main{
     padding: 8px;
 }
@@ -50,6 +56,7 @@ main{
 .part{
     font-size: 1em;
     text-align: center;
+    margin: 100px 0;
 }
 
 .part .part-title{
@@ -68,6 +75,27 @@ main{
 
 .our-members > p{
     font-size: 2em;
+}
+
+.join-us > p{
+    font-size: 2em;
+}
+
+.join-us > .tougao{
+    border-radius: 10em;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-size: 10vw;
+    padding: 20px;
+    width: 80vw;
+    box-shadow: 0 15px 15px 8px rgba(255, 202, 28, 0.3)
+}
+
+.join-us > .tougao:hover{
+    filter: brightness(0.9);
 }
 
 footer{
