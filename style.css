@@ -32,7 +32,7 @@ header{
 }
 header .title-h1{
     font-weight: 900;
-    font-size: 30pt;
+    font-size: 50pt;
     color: #fff8f8;
     text-shadow: 0 3px 8px rgba(0, 0, 255, 0.3);
 }
@@ -48,11 +48,12 @@ main{
 }
 
 .part{
+    font-size: 1em;
     text-align: center;
 }
 
 .part .part-title{
-    font-size: 20pt;
+    font-size: 40pt;
 }
 
 .our-work > iframe{
@@ -66,7 +67,7 @@ main{
 }
 
 .our-members > p{
-    font-size: 1.1em;
+    font-size: 2em;
 }
 
 footer{
