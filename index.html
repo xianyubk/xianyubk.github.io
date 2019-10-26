@@ -36,7 +36,8 @@
             <h3 class="part-title">咸鱼快报</h3>
             <ul>
                 <li v-for="item in kuaibaos">
-                    <a v-bind:href="item.link">{{ item.title }}</a>
+                    <a v-bind:href="item.link" v-if="kuaibaos[0].title">{{ item.title }}</a>
+                    <p v-else>数据加载中...</p>
                 </li>
             </ul>
         </div>
